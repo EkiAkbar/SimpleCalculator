@@ -34,7 +34,7 @@
             android:id="@+id/textNomer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Rezky Akbar"
+            android:text="221132003"
             android:textSize="24sp"
             android:textStyle="bold"
             android:layout_marginBottom="8dp"/>
@@ -58,7 +58,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Email: rezkyakbargaluh902@gmail.com"/>
+            android:text="Email: projek.gameeki@gmail.com"/>
 
         <TextView
             android:layout_width="wrap_content"
