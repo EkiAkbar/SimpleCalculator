@@ -2,7 +2,7 @@
 
 Aplikasi kalkulator sederhana yang dibuat dengan **Java** dan **Android Studio Meerkat**.
 
-## 📱 Fitur Aplikasi
+## 📱 Fitur Aplikasi 2025
 - Input 2 angka
 - Operasi dasar: 
   - Penjumlahan (+)
