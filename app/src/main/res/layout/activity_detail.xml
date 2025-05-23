@@ -30,17 +30,31 @@
             android:textStyle="bold"
             android:layout_marginBottom="8dp"/>
 
+        <TextView
+            android:id="@+id/textNomer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rezky Akbar"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
         <!-- Deskripsi -->
         <TextView
             android:id="@+id/textDescription"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Seorang Calon Mangaka yang ngakunya sepuh padahal masih kroco."
+            android:text="Sistem Informasi."
             android:textSize="16sp"
             android:textAlignment="center"
             android:layout_marginBottom="24dp"/>
 
         <!-- Informasi Lain -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UTS Pemrograman Mobile ITBS-JM"/>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
