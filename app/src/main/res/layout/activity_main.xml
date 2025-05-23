@@ -73,13 +73,13 @@
     <TextView
         android:id="@+id/result"
         android:text="Hasil: "
-        android:textSize="18sp"
+        android:textSize="30sp"
         android:layout_marginTop="24dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnTentang"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Tentang" />

@@ -1,5 +1,6 @@
 package com.example.simplecalculator;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.*;
@@ -8,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity {
 
     EditText input1, input2;
-    Button btnAdd, btnSubtract, btnMultiply, btnDivide;
+    Button btnAdd, btnSubtract, btnMultiply, btnDivide, btnTentang;
     TextView result;
 
     @Override
@@ -23,11 +24,20 @@ public class MainActivity extends AppCompatActivity {
         btnMultiply = findViewById(R.id.btnMultiply);
         btnDivide = findViewById(R.id.btnDivide);
         result = findViewById(R.id.result);
+        btnTentang = findViewById(R.id.btnTentang);
 
         btnAdd.setOnClickListener(v -> calculate('+'));
         btnSubtract.setOnClickListener(v -> calculate('-'));
         btnMultiply.setOnClickListener(v -> calculate('*'));
         btnDivide.setOnClickListener(v -> calculate('/'));
+        btnTentang.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, DetailActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
     private void calculate(char operator) {
