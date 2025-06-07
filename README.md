@@ -16,4 +16,4 @@ Letakkan screenshot kamu di folder `screenshots/` dan sesuaikan namanya.
 Cara Menjalankan Aplikasi 
 1. Clone repositori: 
 ```bash 
-git clone
+git clone https://github.com/EkiAkbar/SimpleCalculator
